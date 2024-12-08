@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+    font-size: 20px; /* Increased for TV readability */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #444;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px; /* Larger title */
+}
+
+#language-container {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+#language-container label {
+    margin-right: 10px;
+    color: #ccc;
+}
+
+#language-selector {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#language-selector:hover {
+    background-color: #777;
+}
+
+/* Category Navigation */
+#categories {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.category-btn {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Larger buttons */
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.category-btn:hover {
+    background-color: #777;
+}
+
+/* Channel Grid */
+.channel-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Bigger cards */
+    gap: 30px;
+    padding: 20px 40px;
+}
+
+.channel-card {
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.channel-card:hover {
+    transform: scale(1.05); /* Zoom effect */
+}
+
+.channel-logo {
+    width: 100%;
+    height: 200px; /* Larger images */
+    object-fit: cover;
+    background-color: #222;
+}
+
+.channel-info {
+    padding: 15px;
+}
+
+.channel-name {
+    font-size: 20px; /* Bigger text */
+    margin: 0;
+}
+
+/* Player Container */
+#player-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#video-player {
+    width: 90%;
+    height: 80%;
+}
+
+#exit-button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+#exit-button:hover {
+    background-color: #c9302c;
+}

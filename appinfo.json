@@ -1,0 +1,10 @@
+{
+  "id": "com.domain.kurdishtv",
+  "version": "1.0.0",
+  "vendor": "Kurdish TV",
+  "type": "web",
+  "main": "index.html",
+  "title": "Kurdish TV",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png"
+}

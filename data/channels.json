@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Kurdistan 24",
+        "url": "https://karwan.tv:9999/kurdistan24-tv/tracks-v1a1/mono.m3u8?token=25907c20dfc8cfa8d92593d47f53004f248f6693-93c5885a286962be8392c8f2d06dacd1-1733689138-1733678338",
+        "logo": "assets/logos/kurdistan24.png",
+        "category": "news"
+    },
+    {
+        "name": "Rudaw TV",
+        "url": "https://karwan.tv:9999/rudaw-tv/tracks-v1a1/mono.m3u8?token=4502b283d26898b0c1c6cefafb95603fadb01a37-b2df206076453145be685f87f6392bfe-1733690673-1733679873",
+        "logo": "assets/logos/rudaw.png",
+        "category": "news"
+    },
+    {
+        "name": "NRT News",
+        "url": "https://karwan.tv:9999/nalia-tv/tracks-v1a1/mono.m3u8?token=88051ff02f4949c081f161e6752365747534decb-37a455c93151710a9649a6fbc2b64717-1733690928-1733680128",
+        "logo": "assets/logos/nrt1.png",
+        "category": "news"
+    },
+    {
+        "name": "Kurdsat News",
+        "url": "https://karwan.tv:9999/kurdsat-news-tv/tracks-v1a1/mono.m3u8?token=041a2eaa7219aadb319a8f163415b5ed4fd9627e-760beddac105c03b59ea085fa94a6ba9-1733691371-1733680571",
+        "logo": "assets/logos/kurdsat1.png",
+        "category": "news"
+    },
+    {
+        "name": "Amozhgary TV",
+        "url": "https://karwan.tv:9999/temp",
+        "logo": "assets/logos/amozhgary.png",
+        "category": "religion"
+    }
+]

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurdish TV Channels</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="app-title">Kurdish TV Channels</h1>
+        <div id="language-container">
+            <label for="language-selector">Language:</label>
+            <select id="language-selector">
+                <option value="en">English</option>
+                <option value="ku">Kurdish</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <nav id="categories">
+            <button class="category-btn" data-category="all">All</button>
+            <button class="category-btn" data-category="news">News</button>
+            <button class="category-btn" data-category="sports">Sports</button>
+            <button class="category-btn" data-category="entertainment">Entertainment</button>
+			<button class="category-btn" data-category="religion">Religion</button>
+        </nav>
+
+        <section id="channel-list" class="channel-grid"></section>
+
+        <div id="player-container" style="display: none;">
+            <video id="video-player" controls></video>
+            <button id="exit-button">Exit</button>
+        </div>
+    </main>
+</body>
+</html>
+
